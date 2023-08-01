@@ -194,7 +194,7 @@ const BodyJSReview = () => {
 
             <H3Wrapper>Thesis report link</H3Wrapper>
             <p style={{ marginBottom: "6px" }}>
-                The bottom link contains the compelete report with more details.
+                The bottom link contains the complete report with more details.
             </p>
             <Button
                 variant="contained"

@@ -30,7 +30,7 @@ const BodyDatabase = () => {
                     Enabling the fast insertion or batch ingestions of multiple
                     orders.
                 </li>
-                <li>Quering order-book snapshots based on time.</li>
+                <li>Querying order-book snapshots based on time.</li>
                 <li>Updating or deleting any order.</li>
             </ul>
 
