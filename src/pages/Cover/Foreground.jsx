@@ -5,7 +5,7 @@ import { useTheme } from "@mui/material/styles"
 
 const Foreground = () => {
     const theme = useTheme()
-    const isDesktop = useMediaQuery(theme.breakpoints.up("sm"))
+    const isDesktop = useMediaQuery(theme.breakpoints.up("md"))
 
     const [scrollY, setScrollY] = useState(0)
 
