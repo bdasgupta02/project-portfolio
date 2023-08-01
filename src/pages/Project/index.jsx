@@ -3,8 +3,13 @@ import React, { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 import data from "../../data/projects"
 import Background from "./Background"
+import { useMediaQuery } from "@mui/material"
+import { useTheme } from "@mui/material/styles"
 
 const Tag = ({ children, style = {} }) => {
+    const theme = useTheme()
+    const isDesktop = useMediaQuery(theme.breakpoints.up("md"))
+
     return (
         <div
             style={{
@@ -15,7 +20,7 @@ const Tag = ({ children, style = {} }) => {
             }}
             className="text-grey"
         >
-            <h3>{children}</h3>
+            {isDesktop ? <h3>{children}</h3> : <p>{children}</p>}
         </div>
     )
 }
