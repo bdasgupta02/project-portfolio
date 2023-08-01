@@ -12,7 +12,7 @@ const Backtext = ({ isRandom, index }) => {
 
     function genColor() {
         const randomIndex = Math.floor(Math.random() * colors.length)
-        return colors[randomIndex] + "88"
+        return colors[randomIndex] + "50"
     }
 
     const [textColor, setTextColor] = useState(genColor())
