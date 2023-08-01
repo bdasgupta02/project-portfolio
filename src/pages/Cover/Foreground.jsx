@@ -40,13 +40,13 @@ const Foreground = () => {
                     display: "flex",
                     flexDirection: "column",
                     transform: `translateY(-${parallaxOffset}px)`,
+                    margin: '16px',
                 }}
             >
                 <div style={{ flex: 1 }}></div>
                 {isDesktop ? (
                     <h1
                         style={{
-                            margin: "0px 14px 0px 14px",
                             display: "flex",
                             flexDirection: "row",
                             width: "100%",
@@ -61,22 +61,34 @@ const Foreground = () => {
                         ,
                     </h1>
                 ) : (
-                    <h1
-                        style={{
-                            margin: "0px 14px 0px 14px",
-                            display: "flex",
-                            flexDirection: "row",
-                            width: "100%",
-                            alignItems: "center",
-                            justifyContent: "flex-start",
-                        }}
-                    >
-                        Hello world! I'm&nbsp;Bikramjit Dasgupta
-                    </h1>
+                    <>
+                        <h1
+                            style={{
+                                display: "flex",
+                                flexDirection: "row",
+                                width: "100%",
+                                alignItems: "center",
+                                justifyContent: "flex-start",
+                            }}
+                        >
+                            Hello world!
+                        </h1>
+                        <h1
+                            style={{
+                                display: "flex",
+                                flexDirection: "row",
+                                width: "100%",
+                                alignItems: "center",
+                                justifyContent: "flex-start",
+                                fontWeight: "bold",
+                            }}
+                        >
+                            I'm Bikramjit Dasgupta
+                        </h1>
+                    </>
                 )}
                 <h2
                     style={{
-                        margin: "0px 14px 0px 14px",
                         display: "flex",
                         flexDirection: "row",
                         width: "100%",
