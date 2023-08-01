@@ -69,7 +69,9 @@ const BodyHotel = () => {
             <p style={{ marginBottom: "6px" }}>
                 For a detailed report of the EDA, preprocessing, feature
                 engineering, model building and evaluation stages, please read
-                the original report in the following link.
+                the original report in the following link. The project also
+                includes two novel model ideas (RB and SAM), explained further
+                in the report.
             </p>
             <Button
                 variant="contained"
