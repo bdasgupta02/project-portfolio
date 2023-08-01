@@ -14,7 +14,7 @@ const Footnote = ({ withProjects = false }) => {
         display: "flex",
         flexDirection: "row",
         width: "100%",
-        marginTop: "80px",
+        marginTop: "120px",
         marginBottom: "16px",
     }
 
