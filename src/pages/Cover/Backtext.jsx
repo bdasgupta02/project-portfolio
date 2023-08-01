@@ -43,7 +43,7 @@ const Backtext = ({ isRandom, index }) => {
     const staticOuter = {
         flex: 1,
         width: "100%",
-        fontSize: "12px",
+        fontSize: "14px",
         color: textColor,
         display: "flex",
         flexDirection: "row",

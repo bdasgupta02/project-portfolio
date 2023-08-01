@@ -17,7 +17,7 @@ const Background = () => {
         const updateStrips = () => {
             if (parentRef.current) {
                 const parentHeight = parentRef.current.clientHeight
-                const strips = Math.floor(parentHeight / 30)
+                const strips = Math.floor(parentHeight / 38)
                 setNumStrips(strips)
             }
         }

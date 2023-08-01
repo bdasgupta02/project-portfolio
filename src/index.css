@@ -19,55 +19,55 @@ body {
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 45.6px;
     font-weight: normal;
     margin: 0px;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 28.8px;
     font-weight: normal;
     margin: 0px;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 21.6px;
     font-weight: normal;
     margin: 0px;
 }
 
 p {
-    font-size: 14px;
+    font-size: 16.8px;
     font-weight: normal;
     margin: 0px;
 }
 
 code {
     font-family: Fira Code, Monospace;
-    font-size: 12px;
+    font-size: 14.4px;
     font-weight: normal;
     margin: 0px;
 }
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 28px;
+        font-size: 33.6px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     h3 {
-        font-size: 16px;
+        font-size: 19.2px;
     }
 
     p {
-        font-size: 14px;
+        font-size: 16.8px;
     }
 
     code {
-        font-size: 11px;
+        font-size: 13.2px;
     }
 }
 

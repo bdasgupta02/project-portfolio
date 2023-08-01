@@ -7,8 +7,8 @@ import BodyHotel from "./BodyHotel"
 
 const data = [
     {
-        title: "Automatic Code Review Framework (Thesis)",
-        desc: "Peer code reviews are a crucial stage in any software engineering project, where incoming source code is manually analyzed for defects and adherence to best practices to ensure the highest quality of the entire project. However, this manual process is often time and resource-intensive, as well as error-prone and inconsistent. To address these challenges, this project proposes and implements a novel automatic code review framework that reduces human effort while enhancing the quality of the review process.",
+        title: "Automatic Code Review Framework",
+        desc: "Peer code reviews are a crucial stage in any software engineering project, where incoming source code is manually analyzed for defects and adherence to best practices to ensure the highest quality of the entire project. However, this manual process is often time and resource-intensive, as well as error-prone and inconsistent. To address these challenges, this project proposes and implements a novel automatic code review framework that reduces human effort while enhancing the quality of the review process. This project was my final-year thesis in the National University of Singapore.",
         year: "2023",
         priTag: "Python",
         secTags: ["Thesis", "Machine Learning"],
@@ -43,7 +43,7 @@ const data = [
         path: "tonic-programming-language",
     },
     {
-        title: "Predicting Hotel Cancellations with ML",
+        title: "Predicting Hotel Cancellations",
         desc: "A comprehensive project of predicting hotel cancellations through machine learning. This project was a part of my IS4303: IT-mediated financial solutions and platforms module at the National University of Singapore",
         year: "2023",
         priTag: "Python",

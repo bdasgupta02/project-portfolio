@@ -177,7 +177,7 @@ const BodyDatabase = () => {
                     As for file ingestions, as stated in the assumptions the
                     data needs to be cleaned and sorted according to epoch, and
                     follow the following format:
-                    <Code style={{ marginTop: "8px" }}>
+                    <Code style={{ marginTop: "8px", marginBottom: "8px" }}>
                         epoch | id | symbol | side(BUY/SELL) |
                         category(NEW/TRADE/CANCEL) | price | quantity
                     </Code>
