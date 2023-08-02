@@ -4,6 +4,7 @@ import Code from "../components/Code"
 import Footnote from "../components/Footnote"
 import Button from "@mui/material/Button"
 import GitHubIcon from "@mui/icons-material/GitHub"
+import tonicArch from "../assets/tonic-compiler.svg"
 
 const BodyTonic = () => {
     return (
@@ -50,12 +51,12 @@ const BodyTonic = () => {
             </Code>
 
             <p style={{ marginBottom: "6px" }}>Less verbose loops</p>
-            <Code>
+            <Code style={{ marginBottom: "6px" }}>
                 for i in 0..n:
                 <br />
                 &nbsp;&nbsp;out array[i]
-            </Code>
-            <Code style={{ marginTop: "6px", marginBottom: "16px" }}>
+                <br />
+                <br />
                 for element in array:
                 <br />
                 &nbsp;&nbsp;out element
@@ -87,12 +88,34 @@ const BodyTonic = () => {
             <Code>a, b = make_pair(1, 2)</Code>
 
             <H3Wrapper>The compiler</H3Wrapper>
-            <p style={{ marginBottom: "6px" }}>
+            <p style={{ marginBottom: "24px" }}>
                 Since all competitions accept C++, and that this language is a
                 superset, it transpiles to C++ and extends its functionality.
                 The link below leads to the GitHub project.
             </p>
+            <p>
+                Due to the time sensitive nature of competitions, the Tonic
+                compiler needs to optimize for efficiency. Instead of using
+                several passes through the code, and constructing further
+                representations including parse trees, the parser passes through
+                the code once. All analysis using the symbol table during the
+                parse phase. The following diagram explains this.
+            </p>
+            <div
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    width: "100%",
+                    marginTop: "24px",
+                }}
+            >
+                <img
+                    src={tonicArch}
+                    style={{ maxWidth: "600px", width: "100%" }}
+                />
+            </div>
 
+            <H3Wrapper>Compiler project (in progress)</H3Wrapper>
             <Button
                 variant="contained"
                 startIcon={<GitHubIcon />}
