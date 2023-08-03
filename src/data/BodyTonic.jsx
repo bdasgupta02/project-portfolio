@@ -87,7 +87,7 @@ const BodyTonic = () => {
             <p style={{ marginBottom: "6px" }}>Destructuring</p>
             <Code>a, b = make_pair(1, 2)</Code>
 
-            <H3Wrapper>The compiler</H3Wrapper>
+            <H3Wrapper>The compiler (v1 POC)</H3Wrapper>
             <p style={{ marginBottom: "24px" }}>
                 Since all competitions accept C++, and that this language is a
                 superset, it transpiles to C++ and extends its functionality.
