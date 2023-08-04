@@ -51,7 +51,7 @@ const BodyTonic = () => {
             </Code>
 
             <p style={{ marginBottom: "6px" }}>Less verbose loops</p>
-            <Code style={{ marginBottom: "6px" }}>
+            <Code style={{ marginBottom: "16px" }}>
                 for i in 0..n:
                 <br />
                 &nbsp;&nbsp;out array[i]
