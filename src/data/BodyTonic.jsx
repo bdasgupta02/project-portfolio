@@ -111,7 +111,7 @@ const BodyTonic = () => {
             >
                 <img
                     src={tonicArch}
-                    style={{ maxWidth: "600px", width: "100%" }}
+                    style={{ maxWidth: "800px", width: "100%" }}
                 />
             </div>
 
