@@ -114,7 +114,7 @@ const BodySocialMedia = () => {
                     textTransform: "none",
                 }}
                 onClick={() => {
-                    window.open("https://github.com/tonic-lang/tonic", "_blank")
+                    window.open("https://github.com/bdasgupta02/is4242-group8", "_blank")
                 }}
             >
                 GitHub Project
